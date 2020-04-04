@@ -6,6 +6,68 @@ body {
     font-weight: 400;
     line-height: 1.625rem;
 }
+.address-footer p i {
+    width: 30px;
+    font-size: 20px;
+}
+.address-footer p {
+    font-size: 14px;
+    font-weight: 500;
+}
+/*************************************/
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 28px;
+}
+
+.b-btn {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #fff;
+    margin: 00px;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.b-btn a {
+    color: #fff;
+    font-size: 16px;
+}
+.b-btn a i {
+    font-size: 18px;
+}
+#button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-2 a {
+    position: relative;
+    transition: all 0.35s ease-Out;
+}
+
+#slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #ffffff;
+    position: absolute;
+    transition: all 0.35s ease-Out;
+    bottom: 0;
+}
+
+#button-2:hover #slide {
+    left: 0;
+}
+
+#button-2:hover a {
+    color: #222222;
+}
+/***********************************/
 .prev {
     position: absolute;
     top: 50%;
@@ -561,7 +623,14 @@ section.contact-form h3 {
     text-decoration: none;
     background-color: #651f77;
 }
+.carousel-indicators {
+    z-index: 9999999;
+}
 @media (min-width: 768px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 8%;
+    }
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 22px 20px;
     }
