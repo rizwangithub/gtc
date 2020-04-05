@@ -310,6 +310,21 @@ nav.navbar.bg-light {
     margin: 0 0 30px 0;
     text-transform: uppercase;
     color: #7c2396;
+    display: flex;
+}
+.main-footer h2:after {
+    content: " ";
+    height: 1px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    margin: 0.9em 20px 0 3px;
+    flex-grow: 1;
+    border-radius: 2px;
+    background-image: linear-gradient(to right top, #651e7a, #711b8b, #dd72ff, #e694ff, #d873f7) !important;
 }
 .footerLinks {
     margin: 0;
@@ -335,7 +350,22 @@ nav.navbar.bg-light {
     padding: 30px 0 0px 0;
     margin: 0;
 }
-.services-list {
+.serviceContents h2 {
+    display: flex;
+}
+.serviceContents h2:after {
+    content: " ";
+    height: 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    margin: 0.9em 2px 0 3px;
+    flex-grow: 1;
+    border-radius: 2px;
+    background-image: linear-gradient(to right top, #651e7a, #711b8b, #dd72ff, #e694ff, #d873f7) !important;
 }
 .serviceContents h2 {
     font-size: 30px;
