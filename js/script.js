@@ -53,6 +53,18 @@ $(document).ready(function () {
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
       });
+
+
+      $('.clients-list').slick({
+        dots: false,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+      });
+
     }
   }
 
