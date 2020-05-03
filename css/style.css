@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 body {
     /* font-family: "Poppins", sans-serif; */
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
     color: #666;
-    font-size: 0.9375rem;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.625rem;
 }
@@ -286,7 +287,7 @@ nav.navbar.bg-light {
     position: relative;
 }
 .address:before {
-    background: rgb(0, 0, 0, 0.7);
+    background: rgb(0, 0, 0, 0.86);
     content: "";
     position: absolute;
     top: 0;
@@ -852,4 +853,46 @@ section.our-clients {
 }
 .clients-list .image-wrapper img {
     height: 60px;
+}
+.m-8 {
+    margin: 80px 0;
+}
+.simg-wraper img {
+    width: 100%;
+}
+.p-8 {
+    padding: 80px 0;
+}
+.mt-5 {
+    margin: 50px 0 0 0;
+}
+.dc-intro p {
+    font-size: 16px;
+}
+.dc-e h4 {
+    margin: 0 0 30px 0;
+    font-weight: 600;
+    color: #666;
+}
+.dc-e p {
+    font-size: 14px;
+}
+.dc-e .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #666;
+}
+.dc-e .card {
+    border: 0;
+    box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.bg-light {
+    background-color: #f8f9fc !important;
+}
+.dc-e .card:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
