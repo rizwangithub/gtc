@@ -913,3 +913,17 @@ section.our-clients {
 .bg-list h5 {
     margin-bottom: 20px;
 }
+.is-sections img {
+    width: 100%;
+}
+.mb-6 {
+    margin-bottom: 40px !important;
+}
+.pb-6 {
+    padding-bottom: 40px !important;
+}
+@media (min-width: 1200px) {
+    .is-sections .container {
+        max-width: 900px;
+    }
+}
