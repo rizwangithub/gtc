@@ -850,6 +850,8 @@ section.our-clients {
 .clients-list .image-wrapper {
     background: #fff;
     padding: 10px;
+    box-shadow: 0 0 3px rgba(60, 72, 88, 0.115) !important;
+    border-radius: 4px;
 }
 .clients-list .image-wrapper img {
     height: 60px;
